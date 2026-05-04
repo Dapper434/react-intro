@@ -6,3 +6,16 @@ function Profile ({name, role}) {
         <div className = "profile-section">
             <h2>{name}</h2>
              <p id = 'role'>{role}</p>
+             <button className = "buton" onClick={() =>
+setFollowing(!foloowing)}
+style = {{
+    backgroundColor:following? "ccc" : "#646cff",
+    color : following? "#333" : "white"
+}}        
+>
+    
+{folllowing? "Following" : "Follow" }
+</button>
+</div>
+    )
+}
