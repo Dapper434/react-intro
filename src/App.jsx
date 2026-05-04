@@ -3,6 +3,7 @@
 import "./App.css";
 import Greeting from "./components/Greeting";
 import Counter from "./components/Counter";
+import Profile from "./components/Profile"
 
 // Root component that combines everything
 function App() {
@@ -13,6 +14,8 @@ function App() {
 
       {/* State example */}
       <Counter />
+
+      <Profile name = "Pipsy" role= "Frontend Developer" />
     </div>
   );
 }

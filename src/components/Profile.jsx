@@ -7,9 +7,9 @@ function Profile ({name, role}) {
             <h2>{name}</h2>
              <p id = 'role'>{role}</p>
              <button className = "buton" onClick={() =>
-setFollowing(!foloowing)}
+setFollowing(!following)}
 style = {{
-    backgroundColor:following? "ccc" : "#646cff",
+    backgroundColor:following? "#ccc" : "#646cff",
     color : following? "#333" : "white"
 }}        
 >
@@ -19,3 +19,5 @@ style = {{
 </div>
     )
 }
+
+export default Profile
